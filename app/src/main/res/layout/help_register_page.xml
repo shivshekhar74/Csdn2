@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <comc.shiv.csdn.custom_text
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.9"
+                android:gravity="center"
+                android:text="Call Type"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/call_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_border_edittext"
+                    android:hint="Mobile"
+                    android:inputType="number"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <comc.shiv.csdn.custom_text
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Mobile"
+                    android:textColor="#000"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:id="@+id/hide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <comc.shiv.csdn.custom_font_for_edittext
+                        android:id="@+id/ext_user_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_border_edittext"
+                        android:hint="Mobile"
+                        android:inputType="number"
+                        android:padding="8dp"
+                        android:textColor="#4b4b4b"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hide_clint_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <comc.shiv.csdn.custom_text
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Client Id"
+                        android:textColor="#000"
+                        android:textSize="17dp" />
+
+                    <comc.shiv.csdn.custom_font_for_edittext
+                        android:id="@+id/clint_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_border_edittext"
+                        android:hint=" Enter your clint id"
+                        android:inputType="number"
+                        android:padding="8dp"
+                        android:textColor="#4b4b4b"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <comc.shiv.csdn.custom_text
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.9"
+                    android:gravity="center"
+                    android:text="Category:-"
+                    android:textColor="#000"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <Spinner
+                        android:id="@+id/inquiry_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_border_edittext"
+                        android:hint="Mobile"
+                        android:inputType="number"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp" />
+                </LinearLayout>
+
+                <comc.shiv.csdn.custom_text
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.9"
+                    android:gravity="center"
+                    android:text="Location/City :-"
+                    android:textColor="#000"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <comc.shiv.csdn.custom_font_for_edittext
+                        android:id="@+id/location"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_border_edittext"
+                        android:hint="Type your "
+                        android:inputType="textCapSentences"
+                        android:padding="8dp"
+                        android:textColor="#4b4b4b"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <comc.shiv.csdn.custom_text
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    android:text="Massage"
+                    android:textColor="#000"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+
+                    <comc.shiv.csdn.custom_font_for_edittext
+                        android:id="@+id/tpye_mgas"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rounded_border_edittext"
+                        android:gravity="top"
+                        android:hint="Type your "
+                        android:inputType="textCapSentences"
+                        android:padding="8dp"
+                        android:textColor="#4b4b4b"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+
+                <comc.shiv.csdn.custom_spinner
+                    android:id="@+id/btn_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.6"
+                    android:background="@drawable/roundedbutton"
+                    android:text="Upload photo"
+                    android:textColor="#FFF" />
+
+                <LinearLayout
+                    android:id="@+id/show_img_hide"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/user_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <comc.shiv.csdn.custom_spinner
+                        android:id="@+id/btn_submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedbutton"
+                        android:text="Submit"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                    <comc.shiv.csdn.custom_spinner
+                        android:id="@+id/btn_reset"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedbutton"
+                        android:text="Reset"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

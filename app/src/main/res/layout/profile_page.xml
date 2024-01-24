@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#eee"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <comc.shiv.csdn.custom_text
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textCapCharacters"
+        android:text="Profile Details "
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <comc.shiv.csdn.custom_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:text="User id "
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <comc.shiv.csdn.custom_text
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:editable="false"
+                android:inputType="text"
+                android:textSize="14dp"
+                android:padding="8dp"
+                android:textColor="#4b4b4b" />
+
+            <comc.shiv.csdn.custom_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textCapCharacters"
+                android:text="Name"
+                android:layout_marginTop="5dp"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <comc.shiv.csdn.custom_font_for_edittext
+                android:id="@+id/ext_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:hint="Enter your name"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="#4b4b4b"
+                android:textSize="14dp" />
+
+            <comc.shiv.csdn.custom_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="textCapCharacters"
+                android:text="Mobile No"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <comc.shiv.csdn.custom_font_for_edittext
+                android:id="@+id/ext_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textSize="14dp"
+                android:padding="8dp"
+                android:textColor="#4b4b4b" />
+
+            <comc.shiv.csdn.custom_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="textCapCharacters"
+                android:text="Alternate Mobile No"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <comc.shiv.csdn.custom_font_for_edittext
+                android:id="@+id/alternate_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:hint="Alternate Mobile No"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textSize="14dp"
+                android:padding="8dp"
+                android:textColor="#4b4b4b" />
+
+            <comc.shiv.csdn.custom_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="textCapCharacters"
+                android:text="Email Id"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <comc.shiv.csdn.custom_font_for_edittext
+                android:id="@+id/ext_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:hint="Enter your email id"
+                android:inputType="textEmailAddress"
+                android:textSize="14dp"
+                android:padding="8dp"
+                android:textColor="#4b4b4b" />
+
+            <comc.shiv.csdn.custom_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="textCapCharacters"
+                android:text="Full Address"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <comc.shiv.csdn.custom_font_for_edittext
+                android:id="@+id/extx_adress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:hint="Full address"
+                android:inputType="textEmailAddress"
+                android:textSize="14dp"
+                android:padding="8dp"
+                android:textColor="#4b4b4b" />
+
+
+            <comc.shiv.csdn.custom_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="textCapCharacters"
+                android:text="City / Location"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <comc.shiv.csdn.custom_font_for_edittext
+                android:id="@+id/txt_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:hint="City / Location"
+                android:inputType="textEmailAddress"
+                android:textSize="14dp"
+                android:padding="8dp"
+                android:textColor="#4b4b4b" />
+
+            <comc.shiv.csdn.custom_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="textCapCharacters"
+                android:text="State"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <comc.shiv.csdn.custom_font_for_edittext
+                android:id="@+id/txt_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:hint="State" android:textSize="14dp"
+
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColor="#4b4b4b" />
+
+
+            <comc.shiv.csdn.custom_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="textCapCharacters"
+                android:text="Gender"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginTop="9dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="true"
+                    android:text="Male"
+                    android:textColor="#000" />
+
+                <RadioButton
+                    android:id="@+id/female_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Female"
+                    android:textColor="#000" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <comc.shiv.csdn.custom_spinner
+                    android:id="@+id/btn_logut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbutton"
+                    android:text="Logout?"
+                    android:textColor="#FFF"
+                    android:textStyle="bold" />
+
+                <comc.shiv.csdn.custom_spinner
+                    android:id="@+id/btn_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbutton"
+                    android:text="Update"
+                    android:textColor="#FFF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

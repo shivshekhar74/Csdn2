@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <comc.shiv.csdn.custom_spinner
+        android:id="@+id/btn1"
+        android:background="@drawable/roundedbutton"
+        android:layout_width="225sp"
+        android:layout_marginTop="23sp"
+        android:layout_height="38sp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_alignLeft="@+id/btn2"
+        android:layout_below="@+id/textView1"
+        android:text="Need Inquire" />
+
+    <ListView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp">
+    </ListView>
+</LinearLayout>
