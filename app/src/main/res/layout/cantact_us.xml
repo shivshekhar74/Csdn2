@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#eee"
+    android:background="@drawable/backpage"
     android:orientation="vertical"
     android:padding="15dp">
 
@@ -20,7 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
-        android:background="#fff"
         android:orientation="vertical"
         android:padding="10dp">
 
@@ -46,7 +45,7 @@
                 android:background="@drawable/rounded_border_edittext"
                 android:hint="Full name"
                 android:inputType="textCapCharacters"
-                android:padding="8dp"
+                android:padding="12dp"
                android:layout_marginLeft="5dp"
                 android:textColor="#4b4b4b"
                 android:textSize="14dp" />
@@ -75,7 +74,7 @@
                 android:background="@drawable/rounded_border_edittext"
                 android:hint="Mobile"
                 android:inputType="number"
-                android:padding="8dp"
+                android:padding="12dp"
                 android:layout_marginLeft="5dp"
                 android:textColor="#4b4b4b"
                 android:textSize="14dp" />
@@ -104,9 +103,7 @@
                 android:background="@drawable/rounded_border_edittext"
                 android:hint="Mobile"
                 android:inputType="number"
-                android:paddingBottom="10dp"
-                android:paddingLeft="5dp"
-                android:paddingTop="10dp" />
+                android:padding="12dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -170,7 +167,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
 
@@ -182,6 +179,7 @@
                 android:layout_below="@+id/textView1"
                 android:layout_gravity="center"
                 android:layout_weight="1"
+                android:textColor="#fff"
                 android:layout_marginRight="5dp"
                 android:background="@drawable/roundedbutton"
                 android:text="Submit" />
@@ -194,6 +192,7 @@
                 android:layout_below="@+id/textView1"
                 android:layout_gravity="center"
                 android:layout_marginLeft="5dp"
+                android:textColor="#fff"
                 android:layout_weight="1"
                 android:background="@drawable/roundedbutton"
                 android:text="Reset" />

@@ -25,11 +25,11 @@ public class ImageAdapter extends BaseAdapter  {
 
     public Integer[] mThumbIds = {  R.drawable.ic_computer, R.drawable.ic_laptop,
             R.drawable.ic_cctv, R.drawable.ic_wifi_camera,
-            R.drawable.biom, R.drawable.ic_vdp_pic,
+            R.drawable.boimatic, R.drawable.coo,
 
     };
 
-    String[] item_list = {"COMPUTER", "LAPTOP", "CCTV CAMERA","WIFI CAMERA","BIO -METRIC ACCESS CONTROL","VDP CONTROL"};
+    String[] item_list = {"COMPUTER", "LAPTOP", "CCTV CAMERA","WIFI CAMERA","BIO -METRIC","VDP CONTROL"};
 
     @Override
     public int getCount() {
